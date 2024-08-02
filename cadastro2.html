@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo exemplo de cadastro</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image:url(hm.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #d7d7d7;
+        }
+        label{
+            display: block;
+            margin-bottom: 30px;
+        }
+    </style>
+    <h1>FORMULARIO DE CONTATO</h1>
+    <form action="submit" method="post"></form>
+     
+       <label for="name">Nome: </label>
+       <input type="text" autofocus="autofocus" placeholder="Seu nome" required="required">
+
+       <label for="email">Email: </label>
+       <input type="text" type="email" required="required">
+
+       <label for="idade">Idade:></label>
+       <input type="text" type="idade" type="number" required="required" min="18" max="100">
+
+       <label for="telefone:">Telefone: </label>
+       <input type="text" type="number">
+       <h1>Qual sua linguagem preferida?</h1>
+       <h1></h1>
+       <label for="HTML">Html </label>
+       <input type="radio" name = "fav_language" value = "HTML" id = "HTML">
+       <h1></h1>
+       <label for="CSS">CSS </label>
+       <input type="radio" name = "fav_language" id = "CSS">
+        <H1></H1>
+       <label for="JAVA">JAVA </label>
+       <input type="radio" name = "fav_language" value = "JAVA" id = "JAVA">
+
+
+</body>
+</html>
